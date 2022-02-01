@@ -1,0 +1,137 @@
+
+
+
+
+    div{
+    margin: 50px auto;
+    }
+    
+    header{
+        text-align: center;
+    }
+
+    .navBar{
+        background: black;
+        color: white;
+        display: flex;
+    }
+    
+    .navAnchor{
+    margin-left: 2%;
+    color: white;
+    }
+    
+    .outside{
+        border: 1px solid black;
+    }    
+
+    .luffy{
+        height:200px ;
+        width: 300px;
+    }
+    .upperSection{
+        margin: 30px;
+        display: flex;
+        
+    }
+    
+    .about{
+        height: 400px ;
+        width: 300px;
+        
+    }
+    .onePiece{
+        height: 200px;
+        width: 600px;
+    }
+    .aboutOnePiece{
+        height: 500px ;
+        width: 600px;
+        
+    }
+    
+    .lowerSection{
+        margin: 30px;
+        display: flex;
+        
+    }
+    .links{
+        height: 400px ;
+        width: 300px;
+        
+    }
+    
+    
+    footer{
+        text-align: center;
+        height: 10%;
+        background: rgb(229, 231, 226);
+    }
+
+    @media screen and (max-width : 797px) {
+        div{
+            margin: 50px auto;
+            }
+            
+            header{
+                text-align: center;
+            }
+        
+            .navBar{
+                background: black;
+                color: white;
+                display: flex;
+            }
+            
+            .navAnchor{
+            margin-left: 2%;
+            color: white;
+            }
+            
+            .outside{
+                border: 1px solid black;
+            }    
+        
+            .luffy{
+                height:200px ;
+                width: 300px;
+            }
+            .upperSection{
+                margin: 30px;
+                display: inline;
+                
+            }
+            
+            .about{
+                height: 400px ;
+                width: 600px;
+                
+            }
+            .onePiece{
+                height: 200px;
+                width: 600px;
+            }
+            .aboutOnePiece{
+                height: 500px ;
+                width: 600px;
+                
+            }
+            
+            .lowerSection{
+                margin: 30px;
+                display: inline;
+                
+            }
+            .links{
+                height: 400px ;
+                width: 300px;
+                
+            }
+            
+            
+            footer{
+                text-align: center;
+                height: 10%;
+                background: rgb(229, 231, 226);
+            }
+    }
